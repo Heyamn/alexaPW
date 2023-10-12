@@ -1,0 +1,41 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:102268718640:function:fb98ef8e-37ef-45f1-ad93-0fd59e01d306:Release_0"
+        },
+        "interfaces": [],
+        "locales": {},
+        "regions": {
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:102268718640:function:fb98ef8e-37ef-45f1-ad93-0fd59e01d306:Release_0"
+            }
+          },
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:102268718640:function:fb98ef8e-37ef-45f1-ad93-0fd59e01d306:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:102268718640:function:fb98ef8e-37ef-45f1-ad93-0fd59e01d306:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "distributionCountries": [],
+      "isAvailableWorldwide": true,
+      "locales": {
+        "en-IN": {
+          "name": "my weather app"
+        }
+      },
+      "testingInstructions": "Sample Testing Instructions."
+    }
+  }
+}
